@@ -136,6 +136,7 @@ $ emerge --ask --noreplace net-misc/netifrc
 $ nano /etc/conf.d/net
 $ config_eth0="dhcp"
 $ cd /etc/init.d
+$ cd /etc/init.d
 $ ln -s net.lo net.eth0
 $ rc-update add net.eth0 default
 
