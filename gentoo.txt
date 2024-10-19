@@ -64,9 +64,6 @@ $ chroot /mnt/gentoo /bin/bash
 $ source /etc/profile
 $ export PS1="(chroot) ${PS1}"
 
-# Prepare bootloader
-$ mount /dev/sda1 /efi
-
 # Installing a Gentoo ebuild repository snapshot from the web
 $ emerge-webrsync
 
