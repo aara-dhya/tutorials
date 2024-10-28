@@ -108,6 +108,7 @@ $ eselect locale set <NUMBER>
 
 # Download kernel
 $ emerge --ask sys-kernel/linux-firmware
+$ echo 'sys-kernel/installkernel dracut' >> /etc/portage.use/installkernel
 $ emerge --ask sys-kernel/gentoo-kernel-bin
 $ emerge --depclean
 
